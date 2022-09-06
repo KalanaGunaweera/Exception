@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         try{
             List<Integer> list = List.of(1,2,3,4,5,6,7);
-            Calculator cal = new Calculator(list);
+            Calculator cal = new Calculator();
 
             cal.sum(list);
 
@@ -15,6 +15,7 @@ public class Main {
 
         }catch(EmptyArrayException e){
             e.getMessage();
+
         }
 
 
